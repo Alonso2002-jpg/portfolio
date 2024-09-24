@@ -1,3 +1,32 @@
+import shortnest from "./assets/projects/shortnest.png"
+import airecadisa from "./assets/projects/airecadisa.png"
+import comingsoon from "./assets/projects/comingsoon.jpg"
+import funkostore from "./assets/projects/funkostore.png"
+import panaderiaproject from "./assets/projects/panaderiaproject.png"
+
+export const images = [
+    {
+        "name":"airecadisa",
+        "asset":airecadisa
+    },
+    {
+        "name":"shortnest",
+        "asset":shortnest
+    },
+    {
+        "name":"comingsoon",
+        "asset":comingsoon
+    },
+    {
+        "name":"funkostore",
+        "asset":funkostore
+    },
+    {
+        "name":"panaderiaproject",
+        "asset":panaderiaproject
+    }
+]
+
 export const WELCOME_MESSAGE = {
     es: 'Bienvenido.',
     en: 'Welcome.'
@@ -29,3 +58,27 @@ export const PRESENTATION = {
 }
 
 export const USERNAMES = ["Alonso Cruz", "@Alonshi2002", "u/Alonso2002-jpg"]
+
+export const BACKEND_LANGUAGES = {
+    es: "Lenguajes de Back-End",
+    en: "Back-End Languages"
+}
+export const FRONTEND_LANGUAGES = {
+    es: "Lenguajes de Front-End",
+    en: "Front-End Languages"
+}
+
+export const DATABASES = {
+    es: "Bases de Datos",
+    en: "Databases"
+}
+
+export const ABOUT_ME = {
+    es: "Algunas cosas sobre mi",
+    en: "Some things about me"
+}
+
+export const COPY = {
+    es: "© 2024 - Diseñado y construido por",
+    en: "© 2024 - Designed and built by"
+}

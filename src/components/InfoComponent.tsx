@@ -1,27 +1,10 @@
-import {MY_WORK_DESCRIPTION, MY_WORK_TITLE} from "../constants.ts";
+import {images, MY_WORK_DESCRIPTION, MY_WORK_TITLE} from "../constants.ts";
 import {WorkCardComponent} from "./WorkCardComponent.tsx";
-import bgTest from "../assets/bg-image1.jpg";
-import shortnest from "../assets/shortnest.png"
-import airecadisa from "../assets/airecadisa.png"
 import workCardsData from "../works.json"
 import {Langs, useSetLang} from "../context/LangContext.tsx";
 
 export function InfoComponent(){
     const {lang} = useSetLang()
-    const images = [
-        {
-            "name":"bgTest",
-            "asset":bgTest
-        },
-        {
-            "name":"airecadisa",
-            "asset":airecadisa
-        },
-        {
-            "name":"shortnest",
-            "asset":shortnest
-        },
-    ]
 
     return (
         <div className="info-container flex flex-col bg-red-500 rounded-3xl py-32">
@@ -33,11 +16,10 @@ export function InfoComponent(){
                 {
                     workCardsData.map((workCard) => {
                         console.log(workCard.image)
-                        console.log(images)
                         const imgName = images.filter(x => x.name == workCard.image)[0] || images[0]
                         console.log(imgName)
                         return (
-                            <WorkCardComponent title={workCard.title} image={imgName.asset} description={lang === Langs.ES ? workCard.description_es : workCard.description_en} urls={workCard.urls}/>
+                            <WorkCardComponent key={workCard.id} title={workCard.title} image={imgName.asset} description={lang === Langs.ES ? workCard.description_es : workCard.description_en} urls={workCard.urls}/>
                         )
                 })
                 }

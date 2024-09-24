@@ -4,7 +4,7 @@
     "title": "Funko's Store",
     "description_es": "El proyecto FunkoSpringJPAVista es una aplicación web para gestionar una tienda de Funkos, desarrollada con Spring Boot y JPA. Ofrece funcionalidades CRUD, una interfaz de usuario con Thymeleaf y una API REST, incluyendo autenticación de usuarios y validación de datos. Es un ejemplo de habilidades en desarrollo Java empresarial y diseño de interfaces.",
     "description_en": "The FunkoSpringJPAVista project is a web application for managing a Funko store, developed with Spring Boot and JPA. It provides CRUD functionalities, a user interface with Thymeleaf, and a REST API, including user authentication and data validation. It showcases skills in enterprise Java development and interface design.",
-    "image": "bgTest",
+    "image": "funkostore",
     "urls": [
       {
         "url": "https://github.com/Alonso2002-jpg/FunkoSpringJPAVista",
@@ -17,7 +17,7 @@
     "title": "Proyecto Panaderia",
     "description_es": "El proyecto Panadería Laravel es una aplicación web para la gestión de una panadería, desarrollada en Laravel con vistas Blade. Incluye funcionalidades como gestión de productos, sistema de pedidos y autenticación de usuarios, todo con una interfaz responsiva. Proporciona una solución integral para optimizar las operaciones de la panadería.",
     "description_en": "The Panadería Laravel project is a web application for managing a bakery, developed in Laravel with Blade views. It includes features such as product management, order system, and user authentication, all with a responsive interface. It provides a comprehensive solution to optimize bakery operations.",
-    "image": "bgTest",
+    "image": "panaderiaproject",
     "urls": [
       {
         "url": "https://github.com/Alonso2002-jpg/Project-Panaderia-Laravel",
@@ -57,6 +57,24 @@
         "url": "https://miairepresupuesto.instalacionescadisa.com",
         "social": "browser"
       }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Proximamente",
+    "description_es": "Proximamente...",
+    "description_en": "Coming soon...",
+    "image": "comingsoon",
+    "urls": [
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Proximamente",
+    "description_es": "Proximamente...",
+    "description_en": "Coming soon...",
+    "image": "comingsoon",
+    "urls": [
     ]
   }
 ]

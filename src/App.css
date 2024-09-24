@@ -44,7 +44,7 @@ body{
 }
 
 .info-container{
-    border-radius:12rem 12rem 0 0;
+    border-radius:7rem;
     color: #0a001b;
     width: 100%;
     background: #e3e3e3;
@@ -93,4 +93,33 @@ body{
     p{
         word-wrap: break-word;
     }
+}
+
+.about-me-container{
+    height: 85lvh;
+    font-optical-sizing: auto;
+    color: #e9e8ea;
+
+    .about-me-sec-container{
+        width: 100%;
+        padding: 0 10rem 0 10rem;
+        gap: 10lvw;
+
+        .title{
+            width: 35lvw;
+        }
+
+        .langs{
+            width: 30lvw;
+        }
+    }
+}
+
+.footer-container{
+    height: 20lvh;
+    background: #0f011f;
+    color: #e9e8ea;
+    font-size: 1.5rem;
+    font-weight: 100;
+    display: flex;
 }

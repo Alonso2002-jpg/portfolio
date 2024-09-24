@@ -13,10 +13,10 @@ export function WorkCardComponent(props: WorkCardProps){
                 <p className="text-xl pt-4">{props.description}</p>
             </div>
             <div className="mt-auto">
-                <ul className="work-card-links flex gap-5">
+                <ul className="work-card-links flex gap-5 ">
                     {props.urls.map((url) => (
                         <li className="work-card-link" key={url.social}>
-                            <a href={url.url} className="text-xl">
+                            <a href={url.url} target="_blank" className="text-xl">
                                 <img src={url.social == 'github' ? github : browser} alt={url.social} className="w-8 h-8"/>
                             </a>
                         </li>
