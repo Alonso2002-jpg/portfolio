@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Funko's Store",
+    "description_es": "El proyecto FunkoSpringJPAVista es una aplicación web para gestionar una tienda de Funkos, desarrollada con Spring Boot y JPA. Ofrece funcionalidades CRUD, una interfaz de usuario con Thymeleaf y una API REST, incluyendo autenticación de usuarios y validación de datos. Es un ejemplo de habilidades en desarrollo Java empresarial y diseño de interfaces.",
+    "description_en": "The FunkoSpringJPAVista project is a web application for managing a Funko store, developed with Spring Boot and JPA. It provides CRUD functionalities, a user interface with Thymeleaf, and a REST API, including user authentication and data validation. It showcases skills in enterprise Java development and interface design.",
+    "image": "bgTest",
+    "urls": [
+      {
+        "url": "https://github.com/Alonso2002-jpg/FunkoSpringJPAVista",
+        "social": "github"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Proyecto Panaderia",
+    "description_es": "El proyecto Panadería Laravel es una aplicación web para la gestión de una panadería, desarrollada en Laravel con vistas Blade. Incluye funcionalidades como gestión de productos, sistema de pedidos y autenticación de usuarios, todo con una interfaz responsiva. Proporciona una solución integral para optimizar las operaciones de la panadería.",
+    "description_en": "The Panadería Laravel project is a web application for managing a bakery, developed in Laravel with Blade views. It includes features such as product management, order system, and user authentication, all with a responsive interface. It provides a comprehensive solution to optimize bakery operations.",
+    "image": "bgTest",
+    "urls": [
+      {
+        "url": "https://github.com/Alonso2002-jpg/Project-Panaderia-Laravel",
+        "social": "github"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Shortnest",
+    "description_es": "El proyecto ShortNest es una aplicación web para acortar URLs, que permite a los usuarios generar enlaces cortos y gestionar sus estadísticas. Incluye autenticación de usuarios y una API REST para integración con otras aplicaciones, todo con una interfaz responsiva y segura. Desarrollado en NestJS, ofrece una solución eficiente para la gestión de enlaces.",
+    "description_en": "The ShortNest project is a web application for shortening URLs, allowing users to generate short links and manage their statistics. It includes user authentication and a REST API for integration with other applications, all with a responsive and secure interface. Developed in NestJS, it provides an efficient solution for link management.",
+    "image": "shortnest",
+    "urls": [
+      {
+        "url": "https://github.com/Alonso2002-jpg/ShortNest",
+        "social": "github"
+      },
+      {
+        "url": "https://shortnest.jorgealonsocruz.com",
+        "social": "browser"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Cadisa - Calderas",
+    "description_es": "El proyecto Cadisa-Calderas es una aplicación web para gestionar el mantenimiento de calderas, utilizando Spring Boot y un framework frontend como React o Angular. Ofrece funcionalidades como seguimiento de mantenimientos y gestión de clientes, demostrando habilidades en desarrollo web full-stack.",
+    "description_en": "The Cadisa-Calderas project is a web application for managing boiler maintenance, using Spring Boot and a frontend framework like React or Angular. It offers features such as maintenance tracking and customer management, showcasing skills in full-stack web development.",
+    "image": "airecadisa",
+    "urls": [
+      {
+        "url": "https://github.com/Alonso2002-jpg/Cadisa-Calderas",
+        "social": "github"
+      },
+      {
+        "url": "https://miairepresupuesto.instalacionescadisa.com",
+        "social": "browser"
+      }
+    ]
+  }
+]
