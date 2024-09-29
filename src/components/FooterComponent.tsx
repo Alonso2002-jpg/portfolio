@@ -11,13 +11,13 @@ export function FooterComponent() {
     return (
         <footer className="footer-container flex justify-between items-center align-middle text-center text-white p-10">
             <div className="flex gap-5">
-                <a href="https://www.linkedin.com/in/alonso-cruz-3b3b4b1b5/">
-                    <img src={githubfooter} alt="linkedin"/>
+                <a href={"https://github.com/Alonso2002-jpg"} target="_blank">
+                    <img src={githubfooter} alt="github"/>
                 </a>
-                <a href="https://www.linkedin.com/in/alonso-cruz-3b3b4b1b5/">
+                <a href={"https://linkedin.com/in/jorge-alonso-cruz"} target="_blank">
                     <img src={linkedinfooter} alt="linkedin"/>
                 </a>
-                <a href="https://www.linkedin.com/in/alonso-cruz-3b3b4b1b5/">
+                <a href={"https://x.com/Alonshi2002"} target="_blank">
                     <img src={twitterfooter} alt="linkedin"/>
                 </a>
             </div>

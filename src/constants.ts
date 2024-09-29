@@ -1,6 +1,6 @@
 import shortnest from "./assets/projects/shortnest.png"
 import airecadisa from "./assets/projects/airecadisa.png"
-import comingsoon from "./assets/projects/comingsoon.jpg"
+import comingsoon from "./assets/projects/notfound.jpg"
 import funkostore from "./assets/projects/funkostore.png"
 import panaderiaproject from "./assets/projects/panaderiaproject.png"
 
