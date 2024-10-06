@@ -12,11 +12,14 @@ export function WorkCardComponent(props: WorkCardProps){
     return (
         <section className="work-card flex flex-col bg-white drop-shadow-xl rounded-2xl p-5">
             <div className={"work-card-img bg-red-200 rounded-3xl" + (props.image.includes("notfound") ? "" : " cursor-pointer")} onClick={() => manageImageVisor()}>
-                <img src={props.image} alt="Work Card" className="rounded-3xl w-full h-full object-cover"/>
+                <img src={props.image} alt="Work Card"/>
             </div>
             <div className="work-card-info py-5 text-left">
-                <h1 className="font-bold">{props.title}</h1>
-                <p className="text-xl pt-4">{props.description}</p>
+                <h2 className="font-bold">{props.title}</h2>
+                <div className="work-desc">
+                    <p className=" text-md pt-4">{props.description}</p>
+                </div>
+
             </div>
             <div className="mt-auto">
                 <ul className="work-card-links flex gap-5 ">

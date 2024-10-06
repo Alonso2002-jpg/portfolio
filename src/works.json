@@ -58,23 +58,6 @@
         "social": "browser"
       }
     ]
-  },
-  {
-    "id": 5,
-    "title": "Undefined",
-    "description_es": "Proximamente...",
-    "description_en": "Coming soon...",
-    "image": "comingsoon",
-    "urls": [
-    ]
-  },
-  {
-    "id": 6,
-    "title": "Undefined",
-    "description_es": "Proximamente...",
-    "description_en": "Coming soon...",
-    "image": "comingsoon",
-    "urls": [
-    ]
   }
+
 ]

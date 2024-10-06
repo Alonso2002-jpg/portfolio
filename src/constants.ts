@@ -3,6 +3,7 @@ import airecadisa from "./assets/projects/airecadisa.png"
 import comingsoon from "./assets/projects/notfound.jpg"
 import funkostore from "./assets/projects/funkostore.png"
 import panaderiaproject from "./assets/projects/panaderiaproject.png"
+import signyourform from "./assets/projects/signyourform.png"
 
 export const images = [
     {
@@ -24,6 +25,10 @@ export const images = [
     {
         "name":"panaderiaproject",
         "asset":panaderiaproject
+    },
+    {
+        "name":"signyourform",
+        "asset":signyourform
     }
 ]
 
@@ -74,8 +79,8 @@ export const DATABASES = {
 }
 
 export const ABOUT_ME = {
-    es: "Algunas cosas sobre mi",
-    en: "Some things about me"
+    es: "Algunas de mis habilidades",
+    en: "Some of my skills"
 }
 
 export const COPY = {
